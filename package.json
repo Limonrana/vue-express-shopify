@@ -1,0 +1,97 @@
+{
+  "name": "shopify-app-vue-node",
+  "version": "0.1.0",
+  "private": true,
+  "description": "This Project include two apps. Frontend is vue + webpack dev server. Then backend is express. Using MongoDB as NOSQL.",
+  "author": "Limon Rana",
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "express": "vue-cli-service express:watch",
+    "express:run": "vue-cli-service express:run",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "main": "src/main.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.2.0",
+    "core-js": "^2.6.5",
+    "express-session": "^1.16.2",
+    "graphql-request": "^1.8.2",
+    "mongoose": "^5.12.7",
+    "node-fetch": "^2.6.0",
+    "nonce": "^1.0.4",
+    "request-promise": "^4.2.4",
+    "roboto-fontface": "*",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.5.5",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@shopify/app-bridge": "^1.6.4",
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-plugin-unit-jest": "^3.9.0",
+    "@vue/cli-service": "^3.8.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "axios": "^0.19.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "flush-promises": "^1.0.2",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vee-validate": "^2.2.10",
+    "vue-cli-plugin-express": "^1.0.1",
+    "vue-cli-plugin-route": "^0.0.7",
+    "vue-cli-plugin-vuetify": "^0.5.0",
+    "vue-loading-overlay": "^3.2.0",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.0.5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "bugs": {
+    "url": "https://github.com/leocxy/vue-cli-express/issues"
+  },
+  "homepage": "https://github.com/leocxy/vue-cli-express#readme",
+  "keywords": [
+    "Shopify Public App",
+    "Vue",
+    "Vue Cli",
+    "Express"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leocxy/vue-cli-express.git"
+  }
+}
